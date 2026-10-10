@@ -70,7 +70,7 @@ Option_data_values=len(Option_data.get("values",[]))
 service.spreadsheets().values().update(
     spreadsheetId=google_sheet_ID,
     range=google_sheet_name+"!A"+str(int(Option_data_values)+1),
-    valueInputOption="USER_ENTERED",  # 可以改成 "USER_ENTERED" 以便讓 Google Sheets 自動格式化
+    valueInputOption="USER_ENTERED",  
     body={"values":Option_daten}
 ).execute()
 

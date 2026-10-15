@@ -1,14 +1,15 @@
 # CSV_Link------------------
-list_link= "/Users/kuantinglin/Desktop/Till/option/python/list.csv"
-daten_link="/Users/kuantinglin/Desktop/Till/option/python/daten.csv"
+list_link= "list.csv"        #Link vom List.csv
+daten_link="daten.csv"       #Link vom daten.csv
 #---------------------------
 
+
+
 # Goole_Link----------------
-#google_sheet_lesen=["https://www.googleapis.com/auth/spreadsheets.readonly"]
 google_sheet_link=["https://www.googleapis.com/auth/spreadsheets"]
-google_sheet_ID="1k3tioImkod4JkK8PI7FHAZKojwEUv4kwDBIzMxGfQ4Q"
+google_sheet_ID="                                                "         #ID vom google_sheet
 google_sheet_name="data"
-json_link="/Users/kuantinglin/Desktop/Till/option/python/option-509521-9475a540df94.json"
+json_link="option-509521-9475a540df94.json"                                #Link vom google_sheet.json
 #---------------------------
 
 
